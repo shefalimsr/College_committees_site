@@ -1,0 +1,261 @@
+body{
+	background-image: url("6 (2).jpg");
+	background-repeat: no-repeat;
+}
+
+.mySlides {display:none;}
+
+#screen1{
+	width: 450px;
+	height: 284px;
+    background-image: url("hv.png");
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 150px;
+    -ms-transform: skewY(-20deg); /* IE 9 */
+    -webkit-transform: skewY(-20deg); /* Safari */
+    transform: skewY(-20deg); /* Standard syntax */
+    position:absolute;
+}
+#screen1 img{
+    width: 410px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position:absolute;
+}
+
+#screen2{
+	width: 460px;
+    height: 284px;
+    background-image: url("hv.png");
+    background-repeat: no-repeat;
+	margin-top: 77px;
+	margin-left: 458px;
+    position: absolute;
+}
+
+#back{
+    width: 410px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position:absolute;
+    background-image: url("tv.jpg");
+}
+
+#icon1{
+    position: absolute;
+    background-image: url("1112.jpg");
+    width: 200px;
+    height: 110px;
+}
+
+#shade1{
+    position: absolute;
+    margin-top: 40px;
+    background-color:  #f0f5f5;
+    width: 160px;
+    height: 30px;
+    opacity:0.7;
+    margin-left: 20px;
+}    
+#shade1 a{
+    font-family: "Microsoft JhengHei";
+    text-decoration: none;
+    margin-left: 1px;
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: 1;
+    color: black;
+}
+
+#icon2{
+    position: absolute;
+    background-image: url("1111.jpg");
+    width: 200px;
+    height: 110px;
+    margin-left: 208px;
+
+}
+ 
+#shade2{
+    position: absolute;
+    margin-top: 40px;
+    background-color:  #f0f5f5;
+    width: 160px;
+    height: 30px;
+    opacity:0.7;
+    margin-left: 20px;
+    
+
+} 
+#shade a{
+    font-family: "Microsoft JhengHei";
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    color: black;
+}
+
+#icon3{
+    position: absolute;
+    background-image: url("1113.jpg");
+    width: 200px;
+    height: 110px;
+    margin-top: 117px;
+}
+
+#shade3{
+    position: absolute;
+    margin-top: 40px;
+    background-color:  #f0f5f5;
+    width: 160px;
+    height: 30px;
+    opacity:0.7;
+    margin-left: 20px;
+    
+}
+
+#shade3 a{
+    font-family: "Microsoft JhengHei";
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    color: black;
+}
+
+#icon4{
+    position: absolute;
+    background-image: url("1114.jpg");
+    width: 200px;
+    height: 110px;
+    margin-left: 208px;
+     margin-top: 117px;
+}
+
+#shade4{
+    position: absolute;
+    margin-top: 40px;
+    background-color:  #f0f5f5;
+    width: 160px;
+    height: 30px;
+    opacity:0.5;
+    margin-left: 20px;
+    
+}
+#shade4 a{
+    font-family: "Microsoft JhengHei";
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 40px;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    color: black;
+}
+
+
+#screen3{
+	width: 460px;
+    height: 284px;
+    background-image: url("hv.png");
+    background-repeat: no-repeat;
+    margin-left: 885px;
+    margin-top: 160px;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari */
+    transform: skewY(20deg); /* Standard syntax */
+    position: absolute;
+}
+
+#screen3 img{
+    width: 410px;
+    height: 230px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position:absolute;
+}
+
+#logo{
+    height: 90px;
+    width: 825px;
+    background-image: url("LED.png");
+    margin-top: 460px;
+    margin-left: 260px;
+    position: absolute;
+}
+
+#logo:hover{
+    background-image: url("LED1.png");
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 63%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.left {
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 80px;
+    width: 210px;
+}
+
+div.left:hover {
+    border: 1px solid #777;
+}
+
+div.left img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 12px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    font-size: 15px;
+}
